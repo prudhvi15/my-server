@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain')
   res.write('Hello...\n')
   res.write('Hello...\n')
-  res.end('Hello World! This is text - we can respond with HTML, JSON, and more :)\n')
+  res.end('Hello World! This is prudhvi server - we can respond with HTML, JSON, and more :)\n')
 })
 
 // start listening
